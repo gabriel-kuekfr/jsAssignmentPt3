@@ -35,7 +35,7 @@ const navigator = createStackNavigator (
     OnBoard: {
       screen: OnBoardScreen,
       defaultNavigationOptions: {
-        headerShown: false, //not working, header shown on onboard screen
+        //headerShown: false, //not working, header shown on onboard screen
       },
     },
     Home: HomeScreen,
