@@ -11,6 +11,7 @@ import DetailsScreen from './src/views/screens/DetailsScreen';
 import CartScreen from './src/views/screens/CartScreen';
 import ShopScreen from './src/views/screens/ShopScreen';
 import ProductsScreen from './src/views/screens/ProductsScreen';
+import ShoppingCartIcon from './src/views/components/ShoppingCartIcon';
 //import BottomNavigator from './src/views/navigation/BottomNavigator';
 
 /* const Stack = createStackNavigator();
@@ -50,6 +51,7 @@ const navigator = createStackNavigator (
     defaultNavigationOptions: {
       //only want header to not show on OnBoardScreen - if back buttons work, but they don't
       //headerShown: false,
+      headerRight: () => <ShoppingCartIcon/>
     },
   },
 );
