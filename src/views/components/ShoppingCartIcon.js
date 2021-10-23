@@ -4,6 +4,8 @@ import { View, Text, StyleSheet } from "react-native";
 import COLORS from "../../consts/colors";
 import Icon from 'react-native-vector-icons/Ionicons';
 
+import {connect} from 'react-redux';
+
 const ShoppingCartIcon = (props) => (
   <View style={{ paddingRight: 10}}>
     <View style={{

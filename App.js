@@ -12,6 +12,11 @@ import CartScreen from './src/views/screens/CartScreen';
 import ShopScreen from './src/views/screens/ShopScreen';
 import ProductsScreen from './src/views/screens/ProductsScreen';
 import ShoppingCartIcon from './src/views/components/ShoppingCartIcon';
+
+//redux
+import {Provider} from 'react-redux';
+import store from './src/redux/store';
+
 //import BottomNavigator from './src/views/navigation/BottomNavigator';
 
 /* const Stack = createStackNavigator();
