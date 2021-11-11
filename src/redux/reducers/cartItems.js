@@ -7,5 +7,4 @@ const cartItems = (state = [], action)=>{
   }
   return state
 }
-
 export default cartItems

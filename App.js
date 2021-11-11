@@ -54,8 +54,6 @@ const navigator = createStackNavigator (
   {
     initialRouteName: "OnBoard",
     defaultNavigationOptions: {
-      //only want header to not show on OnBoardScreen - if back buttons work, but they don't
-      //headerShown: false,
       headerRight: () => <ShoppingCartIcon/>
     },
   },

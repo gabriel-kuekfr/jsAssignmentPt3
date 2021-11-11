@@ -8,7 +8,7 @@ import {SecondaryButton} from '../components/Button';
 
 const DetailsScreen = ({navigation, route}) => {
   //var to hold food details, passed from homescreen
-  // const item = route.params;
+  //const item = route.params;
 
   return (
     <SafeAreaView style={{backgroundColor: COLORS.white}}>

@@ -10,7 +10,7 @@ const ShoppingCartIcon = (props) => (
   <View style={{ paddingRight: 10}}>
     <View style={{
       position: 'absolute', height: 30, width: 30, borderRadius: 15,
-      backgroundColor: COLORS.grey, right: 35, bottom: 20,
+      backgroundColor: COLORS.light, right: 35, bottom: 20,
       alignItems: 'center', justifyContent: 'center', zIndex: 0,
     }}>
       <Text style={{color: COLORS.white, fontWeight: 'bold'}}>0</Text>
